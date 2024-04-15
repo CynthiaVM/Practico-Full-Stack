@@ -1,109 +1,124 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
 }
-p{
+
+p {
     font-size: 20px;
     text-align: justify;
-    color: blue;
-    background-color: aqua;
+    color: rgb(93, 53, 135);
+    /*background-color: rgb(255, 205, 234);*/
 }
 
-#parrafo2{
-    background-color: goldenrod;
+/*#parrafo2 {
+    /*background-color: rgb(236, 182, 227);*/
+ /*} */
+
+.destacado {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    /*background-color:rgb(255, 205, 234);*/
+    color: rgb(93, 53, 135);
 }
 
-.destacado{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 25px;
-   text-align: justify;
-   background-color: tomato; 
-   color: white;
-}
-
-
-#fijo{
+#fijo {
     position: fixed;
     right: 10px;
     bottom: 10px;
 }
 
-.pagina{
-    background-image: url('../img/fashion.jpg'); /*Ruta relativa*/
+.pagina {
+    background-image: url('../img/CODI.jpg');
+    /* Ruta relativa */
     background-size: cover;
     background-attachment: fixed;
 }
+body.nosotros {
+    background-image: url('../img/vecteezy_website-development-concept-with-thin-line-style-and-various_.jpg'); 
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+}
 
-a{
+body.paginaContacto {
+    background-image: url('../img/13_generated.jpg'); 
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+
+}
+a {
     text-decoration: none;
-    color: white;
+    color: rgb(93, 53, 135);
+    /*background-color: rgb(255, 209, 227);*/
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-#nombre{
-    color: white;
+#nombre {
+    color: rgb(221, 87, 70);
     font-size: 60px;
     font-family: fantasy;
     /*background-color: #5c6bc0;*/
     /*background-color: rgb(red, green, blue);*/
-    background-color: rgba(0, 0, 0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-#subtitulo{
-    color: yellowgreen;
+#subtitulo {
+    color: rgb(71, 147, 175);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 400px;
-    /*margin-left: 100px;*/  /*Esto es para mover a la derecha */ 
+    /*margin-left: 100px;*/
+    /* Esto es para mover a la derecha */
 }
 
-#correo{
-    background-color: tomato;
+/*.half {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}*/
+
+#correo {
+    background-color: rgb(255, 196, 112);
     /*display: block;*/
 }
 
-/*Aquí detallo el CSS de mi pagina de contacto.html */
-.titulo{
-    color: white;
+/* CSS de mi pagina de contacto */
+.titulo {
+    color: rgb(93, 53, 135);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 35 px;
     /*text-align: center;*/
-
 }
 
-label{
-    color: white;
+label {
+    color:rgb(67, 104, 80);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-input{
+
+input {
     color: blue;
-    font-size: 20px;
+    font-size: 20 px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Detallo el CSS del Formulario*/
-/*Un elemento en bloque, posee: largo - ancho -relleno - borde - margen*/
-.cajaFormulario{
+/* Detallo el CSS del Formulario */
+/* Un elemento en bloque, posee: largo - ancho -relleno - borde - margen */
+.cajaFormulario {
     background-color: rgba(122, 200, 130, 0.3);
-    width: 30%;    /*Unidades de medidas en css:  px - em - rem  - % */
+    width: 30%;
+    /* Unidades de medidas en css: px - em - rem - % */
     height: 540px;
-    /*padding: arriba - abajo - izquierda - derecha;*/
+    /* padding: arriba - abajo - izquierda - derecha; */
     padding: 20px;
-    border: red 5px double;
-    /*margin: arriba - abajo - izquierda - derecha ;*/
+    border: rgb(104, 5, 79) 5px double;
+    /* margin: arriba - abajo - izquierda - derecha ; */
     margin-left: 240px;
     margin-top: 20px;
     text-align: center;
 }
-
-
-
-
-
-
